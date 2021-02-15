@@ -25,3 +25,5 @@ checkAge('Charles', 21);
 checkAge('Abby', 27);
 checkAge('James', 18);
 checkAge('John', 17);
+// Array of Vegetables
+var veggies = ["Brocoli", "Lettuce", "Carrots", "Potatoes"]
