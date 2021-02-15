@@ -41,3 +41,10 @@ let peoples = [person1 = {name: "Charles", age: 21}, person2 = {name: "Abby", ag
 for (i = 0; i < peoples.length; i++) {
     checkAge(peoples[i].name, peoples[i].age);
 };
+// creates function getLength, that will return the number of letters in a string. If even spits out log with even message. If odd spits out odd message
+function getLength(str) {
+    var n = str.length
+    if (n % 2 === 0) {
+        console.log('The world is nice and even!')
+    } else {console.log( 'The world is an odd place!')}
+};
