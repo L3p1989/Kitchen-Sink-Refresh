@@ -18,3 +18,10 @@ console.log(sum);
 function sayHello() {alert("Hello World!")};
 // calls sayHello()
 sayHello();
+// creates function checkAge that alerts, if age is less than 21, string stating not able to view page
+function checkAge(name, age) {if (age < 21) {alert(`"Sorry ${name}, you aren't old enough to view this page!"`)}}
+// call checkAge multiple times with different values
+checkAge('Charles', 21);
+checkAge('Abby', 27);
+checkAge('James', 18);
+checkAge('John', 17);
