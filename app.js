@@ -37,3 +37,7 @@ var pet = {name: "Saoirse", breed: "Siberian Husky"};
 console.log(pet);
 // array of 5 objects
 let peoples = [person1 = {name: "Charles", age: 21}, person2 = {name: "Abby", age: 27}, person3 = {name: "James", age: 18}, person4 = {name: "John", age: 17}, person5 = {name: "L3p", age: 31}];
+// checkAge for peoples
+for (i = 0; i < peoples.length; i++) {
+    checkAge(peoples[i].name, peoples[i].age);
+};
