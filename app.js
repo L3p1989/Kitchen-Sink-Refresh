@@ -26,4 +26,8 @@ checkAge('Abby', 27);
 checkAge('James', 18);
 checkAge('John', 17);
 // Array of Vegetables
-var veggies = ["Brocoli", "Lettuce", "Carrots", "Potatoes"]
+var veggies = ["Brocoli", "Lettuce", "Carrots", "Potatoes"];
+// Loop through veggies array
+for (i = 0; i < veggies.length; i++) {
+    console.log(veggies[i]);
+};
