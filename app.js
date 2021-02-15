@@ -1,1 +1,3 @@
-var myName = L3p
+var myName = L3p;
+
+const allStates = 50;
