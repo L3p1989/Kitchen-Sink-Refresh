@@ -23,11 +23,13 @@ The objective of this lab assignment is to practice using the fundamentals of Ja
 
 10. Create an array of your favorite vegetables and name it accordingly.
     > Use a loop to display each of your favorite vegetables to the developer console.
-11. Create an object named <blockquote>pet</blockquote> with two properties, name and breed. Use your own pets name and breed as the values! Or make one up if you don't own a pet.
-12. Use a loop to call the checkAge function for each object in the array, passing the object's name and age as arguments.
+11. Create an object named pet with two properties, name and breed. Use your own pets name and breed as the values! Or make one up if you don't own a pet.
+    - Display a console log displaying your pets name and breed after creating your pet object.
+12. Create an array of 5 objects that contain name and age properties. Make up names and ages for each object, making sure some are younger than 21 and some are 21+.
+    > Use a loop to call the checkAge function for each object in the array, passing the object's name and age as arguments.
 13. Create a function called getLength that takes any word as an argument. The function should return the number of characters in the string.
-14. Call the getLength function, passing 'Hello World' as the argument. Store the returned result of that function in a variable.
-15. Check the number in the variable from the previous objective. If the number is even, display 'The world is nice and even!' in the developer console. Otherwise if the number is odd, display 'The world is an odd place!' in the developer console.
+    > Call the getLength function, passing 'Hello World' as the argument. Store the returned result of that function in a variable.
+    > If the number is even, display 'The world is nice and even!' in the developer console. Otherwise if the number is odd, display 'The world is an odd place!' in the developer console.
 
 # Submission
 
