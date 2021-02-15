@@ -31,3 +31,9 @@ var veggies = ["Brocoli", "Lettuce", "Carrots", "Potatoes"];
 for (i = 0; i < veggies.length; i++) {
     console.log(veggies[i]);
 };
+// Pet Object
+var pet = {name: "Saoirse", breed: "Siberian Husky"};
+// log pet object in console
+console.log(pet);
+// array of 5 objects
+let peoples = [person1 = {name: "Charles", age: 21}, person2 = {name: "Abby", age: 27}, person3 = {name: "James", age: 18}, person4 = {name: "John", age: 17}, person5 = {name: "L3p", age: 31}];
