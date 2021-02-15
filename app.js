@@ -2,7 +2,7 @@
 var myName = "L3p";
 // logs myName
 console.log(myName);
-// assigns const allStaes a numeric value of 50
+// assigns const allStates a numeric value of 50
 const allStates = 50;
 // logs allStates
 console.log(allStates);
@@ -14,3 +14,7 @@ let y = 4;
 var sum = x + y;
 // logs sum
 console.log(sum);
+// creates function sayHello() that shows an alert that says "Hello World!"
+function sayHello() {alert("Hello World!")};
+// calls sayHello()
+sayHello();
